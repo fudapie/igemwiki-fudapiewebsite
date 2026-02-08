@@ -870,7 +870,7 @@ body.album-body {
         font-size: 3rem !important;
     }
     .holo-subtitle {
-        font-size: 1rem;
+        font-size: 0.3rem;
     }
 
     
@@ -891,11 +891,11 @@ body.album-body {
 
     
     .holo-title-food {
-        font-size: 3rem !important;
+        font-size: 1.5rem !important;
         text-align: center; 
     }
     .holo-title-food span {
-        font-size: 4rem !important;
+        font-size: 3rem !important;
     }
 
     
@@ -925,10 +925,25 @@ body.album-body {
     .water-container {
         padding-top: 100px;
     }
+    .holotitle {
+        font-size: 1.5rem !important;
+    } 
     .holotitle span {
         font-size: 2.5rem !important;
     }
     .water-pdf-container {
         height: 400px; 
+    }
+    .subtitle {
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #61fcff;
+    border-top: #00eeff 2px solid;
+    }
+    .para {
+    color: white;
+    font-size: 0.3rem;
     }
 }
