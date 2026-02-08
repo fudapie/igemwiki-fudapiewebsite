@@ -857,15 +857,6 @@ body.album-body {
         margin-left: 15px;
         font-size: 0.85rem; 
     }
-
-    
-    .scene-3d-container {
-        transform: scale(0.65); 
-        margin-top: 50px;
-        height: 250px; 
-    }
-
-    
     
     .hologram-container {
         width: 90%;          
@@ -952,7 +943,11 @@ body.album-body {
     }
     .data-table {
         min-width: 500px; 
+        font-size: xx-small;
     }
+    td, th {
+    padding: 8px 4px; /* 减少内边距 */
+  }
 
     .intro-text {
         font-size: 2rem !important; 
