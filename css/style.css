@@ -947,6 +947,7 @@ body.album-body {
   }
   
   .data-table {
+    padding-top:60px;
     min-width: 600px; 
     width: 100%;
   }
