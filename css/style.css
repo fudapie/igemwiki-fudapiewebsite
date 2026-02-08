@@ -824,3 +824,111 @@ body.album-body {
   color: white;
   font-size: 0.9rem;
 }
+
+ 
+@media screen and (max-width: 768px) {
+
+    
+    .navbar {
+        justify-content: flex-start; 
+        overflow-x: auto;            
+        white-space: nowrap;         
+        padding: 0 15px;             
+        height: 60px;               
+        -webkit-overflow-scrolling: touch; 
+    }
+    
+    .navbar::-webkit-scrollbar {
+        display: none; 
+    }
+
+    .logo {
+        font-size: 1.1rem; 
+        margin-right: 20px; 
+        flex-shrink: 0;     
+    }
+
+    .nav-links {
+        display: flex;
+        flex-shrink: 0; 
+    }
+
+    .nav-links a {
+        margin-left: 15px;
+        font-size: 0.85rem; 
+    }
+
+    
+    .scene-3d-container {
+        transform: scale(0.65); 
+        margin-top: 50px;
+        height: 250px; 
+    }
+
+    
+    .holo-title {
+        font-size: 3rem !important;
+    }
+    .holo-subtitle {
+        font-size: 1rem;
+    }
+
+    
+    .wall-assembly {
+        transform: scale(0.8);
+        transform-origin: bottom center; 
+    }
+
+    
+    .food-layout-grid {
+        display: flex;        
+        flex-direction: column; 
+        padding-top: 80px;    
+        gap: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    
+    .holo-title-food {
+        font-size: 3rem !important;
+        text-align: center; 
+    }
+    .holo-title-food span {
+        font-size: 4rem !important;
+    }
+
+    
+    .diet-intro {
+        text-align: center;
+        border-left: none;
+        border-top: 3px solid #02b2da;
+        padding-top: 15px;
+        padding-left: 0;
+    }
+
+    .table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+    }
+    .data-table {
+        min-width: 500px; 
+    }
+
+    .intro-text {
+        font-size: 2rem !important; 
+    }
+    .album-img {
+        height: 25vh; 
+    }
+    
+    .water-container {
+        padding-top: 100px;
+    }
+    .holotitle span {
+        font-size: 2.5rem !important;
+    }
+    .water-pdf-container {
+        height: 400px; 
+    }
+}
