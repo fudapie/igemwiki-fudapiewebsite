@@ -942,7 +942,7 @@ body.album-body {
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch; 
-    margin: 0 -15px;
+    margin-top: 100px !important;
     padding: 0 15px;
   }
   
@@ -999,5 +999,4 @@ body.album-body {
   border-left: solid 10px #00eeff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   color: #eee;
-}
 }
