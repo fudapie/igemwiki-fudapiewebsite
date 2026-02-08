@@ -866,11 +866,50 @@ body.album-body {
     }
 
     
-    .holo-title {
-        font-size: 3rem !important;
+    
+    .hologram-container {
+        width: 90%;          
+        left: 50%;
+        top: 55%;            
+        transform: translate(-50%, -50%); 
+        padding: 0 10px;     
     }
-    .holo-subtitle {
-        font-size: 0.3rem;
+
+    
+    .holo-title {
+        font-size: 2.5rem !important; 
+        line-height: 1.2;             
+        white-space: normal;          
+        word-wrap: break-word;        
+        margin-bottom: 15px;
+        letter-spacing: 2px;          
+    }
+
+    
+    .hologram-container p {
+        font-size: 0.9rem !important; 
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.9);
+        text-align: justify;           
+        max-height: 200px;
+        overflow-y: auto;             
+    }
+
+    
+    .scene-3d-container {
+        transform: scale(0.6);       
+        margin-top: 60px;            
+        height: 200px;
+    }
+    
+    
+    .content-img img {
+        width: 100%;
+        max-width: 300px; 
+    }
+    
+    .content-text h2 {
+        font-size: 1.8rem;
     }
 
     
