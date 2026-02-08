@@ -965,7 +965,7 @@ body.album-body {
         padding-top: 100px;
     }
     .holotitle {
-        font-size: 1.5rem !important;
+        font-size: 0.8rem !important;
     } 
     .holotitle span {
         font-size: 2.5rem !important;
@@ -985,4 +985,14 @@ body.album-body {
     color: white;
     font-size: 0.3rem;
     }
+    .story1 {
+  width: 95%;
+  margin: 100px 20px;
+  padding-top: 60px;
+  background-color: transparent;
+
+  border-left: solid 10px #00eeff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: #eee;
+}
 }
